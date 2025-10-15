@@ -11,7 +11,7 @@
 
 .dashboard-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 2rem;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@
 .dashboard-main {
   flex: 1;
   padding: 2rem;
-  background-color: #f5f7fa;
+  background-color: #ffffff;
 }
 
 .cards-container {
@@ -45,3 +45,30 @@
 }
 
 /* Add your custom styles below */
+
+.student-card {
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border-left: 5px solid #747bff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.student-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #646cff;
+}
+
+.student-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
